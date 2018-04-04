@@ -1,0 +1,1 @@
+This folder contains the framework itself. Include the files you need, don't include the files you don't want. For the most part it's pretty modular and just makes assumptions about structural matches (TypeScript uses structural typing after all), duck typing (JavaScript does this) or function signatures.
