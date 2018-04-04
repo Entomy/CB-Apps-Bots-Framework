@@ -1,0 +1,104 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CB", "CB", "{86DEE01B-5FB6-4413-81C8-525FD99E8C4B}"
+	ProjectSection(SolutionItems) = preProject
+		CB\cb.d.ts = CB\cb.d.ts
+		CB\cbjs.d.ts = CB\cbjs.d.ts
+		CB\gender.d.ts = CB\gender.d.ts
+		CB\group.d.ts = CB\group.d.ts
+		CB\message.d.ts = CB\message.d.ts
+		CB\tip.d.ts = CB\tip.d.ts
+		CB\user.d.ts = CB\user.d.ts
+		CB\weight.d.ts = CB\weight.d.ts
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{E76391A2-06B5-49EA-B9ED-2C66EF9570C7}"
+	ProjectSection(SolutionItems) = preProject
+		Common\discount.ts = Common\discount.ts
+		Common\dozer.ts = Common\dozer.ts
+		Common\emblems.ts = Common\emblems.ts
+		Common\hatchery.ts = Common\hatchery.ts
+		Common\hightip.ts = Common\hightip.ts
+		Common\leaderboard.ts = Common\leaderboard.ts
+		Common\menuitem.ts = Common\menuitem.ts
+		Common\menusection.ts = Common\menusection.ts
+		Common\notice.ts = Common\notice.ts
+		Common\permissions.ts = Common\permissions.ts
+		Common\rotater.ts = Common\rotater.ts
+		Common\songqueue.ts = Common\songqueue.ts
+		Common\songrequest.ts = Common\songrequest.ts
+		Common\special.ts = Common\special.ts
+		Common\stats.ts = Common\stats.ts
+		Common\subject.ts = Common\subject.ts
+		Common\tallier.ts = Common\tallier.ts
+		Common\team.ts = Common\team.ts
+		Common\teams.ts = Common\teams.ts
+		Common\tickets.ts = Common\tickets.ts
+		Common\timer.ts = Common\timer.ts
+		Common\timers.ts = Common\timers.ts
+		Common\tipper.ts = Common\tipper.ts
+		Common\tippers.ts = Common\tippers.ts
+		Common\viewers.ts = Common\viewers.ts
+		Common\votes.ts = Common\votes.ts
+		Common\whisper.ts = Common\whisper.ts
+	EndProjectSection
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "LizsRoom", "LizsRoom\LizsRoom.njsproj", "{5DED5613-C948-4DD9-A0B9-D615FABFECED}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "EntomysRoom", "EntomysRoom\EntomysRoom.njsproj", "{485EF32B-48BC-4ADA-86ED-12E8BB0B1FA5}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "BouncerBot", "BouncerBot\BouncerBot.njsproj", "{6539BD4F-7B6A-44A4-8DAB-2F56DEDF4278}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "EdgeApp", "EdgeApp\EdgeApp.njsproj", "{7C2B4280-CB32-4E26-B376-1E6CD9BA7EF9}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "GoalApp", "GoalApp\GoalApp.njsproj", "{F8BB0FBC-AFB6-4010-81A5-744D124458D3}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "StatsBot", "StatsBot\StatsBot.njsproj", "{9AA57369-D0AF-4EA3-88A4-43C73F334B01}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "ScarletsRoom", "ScarletsRoom\ScarletsRoom.njsproj", "{1BCCA6C4-E414-4C9A-BFAA-665AEBA9829C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5DED5613-C948-4DD9-A0B9-D615FABFECED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DED5613-C948-4DD9-A0B9-D615FABFECED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DED5613-C948-4DD9-A0B9-D615FABFECED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DED5613-C948-4DD9-A0B9-D615FABFECED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{485EF32B-48BC-4ADA-86ED-12E8BB0B1FA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{485EF32B-48BC-4ADA-86ED-12E8BB0B1FA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{485EF32B-48BC-4ADA-86ED-12E8BB0B1FA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{485EF32B-48BC-4ADA-86ED-12E8BB0B1FA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6539BD4F-7B6A-44A4-8DAB-2F56DEDF4278}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6539BD4F-7B6A-44A4-8DAB-2F56DEDF4278}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6539BD4F-7B6A-44A4-8DAB-2F56DEDF4278}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6539BD4F-7B6A-44A4-8DAB-2F56DEDF4278}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C2B4280-CB32-4E26-B376-1E6CD9BA7EF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C2B4280-CB32-4E26-B376-1E6CD9BA7EF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C2B4280-CB32-4E26-B376-1E6CD9BA7EF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C2B4280-CB32-4E26-B376-1E6CD9BA7EF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8BB0FBC-AFB6-4010-81A5-744D124458D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8BB0FBC-AFB6-4010-81A5-744D124458D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8BB0FBC-AFB6-4010-81A5-744D124458D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8BB0FBC-AFB6-4010-81A5-744D124458D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AA57369-D0AF-4EA3-88A4-43C73F334B01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AA57369-D0AF-4EA3-88A4-43C73F334B01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AA57369-D0AF-4EA3-88A4-43C73F334B01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AA57369-D0AF-4EA3-88A4-43C73F334B01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BCCA6C4-E414-4C9A-BFAA-665AEBA9829C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BCCA6C4-E414-4C9A-BFAA-665AEBA9829C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BCCA6C4-E414-4C9A-BFAA-665AEBA9829C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BCCA6C4-E414-4C9A-BFAA-665AEBA9829C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {656FF770-9CF5-4A56-AABA-D7E8BEE2CEBC}
+	EndGlobalSection
+EndGlobal
