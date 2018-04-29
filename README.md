@@ -6,3 +6,6 @@ This directory holds a TypeScript definition of the CB framework as best as I ca
 
 # Common Directory
 This directory holds the actual framework. See the README in that directory for more information
+
+# Related Videos
+[Cloning the CB Framework](https://www.youtube.com/watch?v=5QqRKm_umPA)

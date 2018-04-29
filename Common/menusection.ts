@@ -77,13 +77,11 @@ class menusection {
 	 * @param discountMethod The way to apply discounts to the items, if null items are not discounted under any condition
 	 */
 	public print(user: user | message, limit?: number, discountMethod: (menuitem: menuitem, user: message | tip | user) => number = null): void {
-		cb.log("print()");
+		notice.add("===== " + this.name + " =====");
 		let price: number;
 		for (let item of this.items) {
-			cb.log("item: " + item.name);
 			// Discount the item's price if appropriate
 			price = discountMethod != null ? discountMethod(item, user) : item.cost;
-			cb.log("price: " + price);
 			// Skip printing the item if the price is higher than a specified limit
 			// It would be possible to break if we could gaurantee the items were ordered by cost, but this isn't possible, so just continue
 			if (limit != null && price >= limit) continue;

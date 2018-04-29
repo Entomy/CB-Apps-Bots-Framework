@@ -20,9 +20,6 @@ class timer {
 	/** Function to call when stopped */
 	private readonly onStop: () => void;
 
-	/** Function to call on each tick */
-	private readonly onTick: () => void;
-
 	/**
 	 * Extend the timer
 	 * @param seconds Seconds to extend by
@@ -74,7 +71,6 @@ class timer {
 		if (this.delay > 0) {
 			this.delay--;
 		} else if (this.remaining > 0) {
-			if (this.onTick != null) this.onTick();
 			this.remaining--;
 		}
 	}
@@ -85,13 +81,12 @@ class timer {
 	 * @param duration Duration of the timer, in seconds
 	 * @param delay Delay before the timer starts, in seconds
 	 */
-	public constructor(name: string, duration: number, delay: number = 0, onStart?: () => void, onStop?: () => void, onTick?: () => void) {
+	public constructor(name: string, duration: number, delay: number = 0, onStart?: () => void, onStop?: () => void) {
 		this.name = name;
 		this.duration = duration;
 		this.remaining = duration;
 		this.delay = delay;
 		this.onStart = onStart;
 		this.onStop = onStop;
-		this.onTick = onTick;
 	}
 }
