@@ -22,8 +22,8 @@ namespace timers {
 	 * @param onStart Function to call on start
 	 * @param onStop function to call on stop
 	 */
-	export function add(name: string, duration: number, delay: number = 0, onStart?: () => void, onStop?: () => void, onTick?: () => void): void {
-		pool[pool.length] = new timer(name, duration, delay, onStart, onStop, onTick);
+	export function add(name: string, duration: number, delay: number = 0, onStart?: () => void, onStop?: () => void): void {
+		pool[pool.length] = new timer(name, duration, delay, onStart, onStop);
 		if (delay > 0) {
 			notice.send(emblems.timer + "'" + name + "' will start in " + delay + "s");
 		}
