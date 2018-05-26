@@ -9,3 +9,5 @@ This directory holds the actual framework. See the README in that directory for 
 
 # Related Videos
 [Cloning the CB Framework](https://www.youtube.com/watch?v=5QqRKm_umPA)
+
+[Tooling for the CB Framework](https://www.youtube.com/watch?v=49QqqEvYMdQ)
