@@ -73,12 +73,13 @@ namespace votes {
 	 */
 	export function start(choices: string[]): void {
 		clear();
-		ballot = choices;
-		notice.add("A ballot has started between the following:");
 		for (let choice of choices) {
-			notice.add(choice);
+			ballot[ballot.length] = choice.trim();
 		}
-		notice.apply(emblems.ballot);
+		notice.add(emblems.ballot + "A ballot has started between the following:");
+		for (let choice of choices) {
+			notice.add(emblems.ballot + choice);
+		}
 		notice.post();
 		notice.clear();
 	}

@@ -5,6 +5,11 @@ namespace songqueue {
 	"use strict";
 
 	/**
+	 * Whether the queue postings should be public
+	 */
+	let publicPostings: boolean = false;
+
+	/**
 	 * The actual queue of song requests
 	 */
 	let queue: songrequest[] = [];
@@ -18,13 +23,25 @@ namespace songqueue {
 		queue[queue.length] = new songrequest(user, song, type);
 		switch (type) {
 			case requesttype.dance:
-				notice.send(emblems.song + "Dance: '" + song + "' queued", cb.room_slug);
+				if (publicPostings) {
+					notice.send(emblems.song + "Dance: '" + song + "' queued", cb.room_slug);
+				} else {
+					notice.send(emblems.song + "Dance: '" + song + "' queued");
+				}
 				break;
 			case requesttype.karaoke:
-				notice.send(emblems.song + "Karaoke: '" + song + "' queued", cb.room_slug);
+				if (publicPostings) {
+					notice.send(emblems.song + "Karaoke: '" + song + "' queued", cb.room_slug);
+				} else {
+					notice.send(emblems.song + "Karaoke: '" + song + "' queued");
+				}
 				break;
 			case requesttype.play:
-				notice.send(emblems.song + "Song: '" + song + "' queued", cb.room_slug);
+				if (publicPostings) {
+					notice.send(emblems.song + "Song: '" + song + "' queued", cb.room_slug);
+				} else {
+					notice.send(emblems.song + "Song: '" + song + "' queued");
+				}
 				break;
 		}
 	}
