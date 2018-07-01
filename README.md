@@ -1,4 +1,7 @@
 # CB-Apps-Bots-Framework
+
+[![Join the chat at https://gitter.im/CB-Apps-Bots-Framework/Lobby](https://badges.gitter.im/CB-Apps-Bots-Framework/Lobby.svg)](https://gitter.im/CB-Apps-Bots-Framework/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 The base framework for writing Apps and Bots on CB that I've developed writing apps and bots for various models
 
 # CB Directory
