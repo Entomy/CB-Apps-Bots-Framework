@@ -14,3 +14,7 @@ This directory holds the actual framework. See the README in that directory for 
 [Cloning the CB Framework](https://www.youtube.com/watch?v=5QqRKm_umPA)
 
 [Tooling for the CB Framework](https://www.youtube.com/watch?v=49QqqEvYMdQ)
+## Support on Beerpay
+Hey dude! Help me out for a couple of :beers:!
+
+[![Beerpay](https://beerpay.io/Entomy/CB-Apps-Bots-Framework/badge.svg?style=beer-square)](https://beerpay.io/Entomy/CB-Apps-Bots-Framework)  [![Beerpay](https://beerpay.io/Entomy/CB-Apps-Bots-Framework/make-wish.svg?style=flat-square)](https://beerpay.io/Entomy/CB-Apps-Bots-Framework?focus=wish)
