@@ -1,5 +1,6 @@
 # CB-Apps-Bots-Framework
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/b6e5b3a3ed6c42e397031f0f9c9253fb)](https://app.codacy.com/app/Entomy/CB-Apps-Bots-Framework?utm_source=github.com&utm_medium=referral&utm_content=Entomy/CB-Apps-Bots-Framework&utm_campaign=Badge_Grade_Dashboard)
 [![Join the chat at https://gitter.im/CB-Apps-Bots-Framework/Lobby](https://badges.gitter.im/CB-Apps-Bots-Framework/Lobby.svg)](https://gitter.im/CB-Apps-Bots-Framework/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 The base framework for writing Apps and Bots on CB that I've developed writing apps and bots for various models
